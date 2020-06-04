@@ -1,0 +1,128 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .top-wrapper{
+        height:550px;
+    }
+    .hero-text2{
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .hero-text3{
+
+        line-height: 20px;
+        padding-right:450px;
+      }
+      .hero2{
+        
+        width: 327px;
+        left: 596px;
+      }
+      .hero3{
+        position: absolute;
+        top:450px;
+        
+      }
+      .container-text{
+        padding-left: 100px;
+    
+      }
+      .text{
+          margin:0 107px;
+      }
+      .btn{
+          margin:39px 300px;
+         
+      }
+  }
+  
+  /* For Smartphones */
+  @media all and (max-width: 768px) {
+    .top-wrapper{
+        height:450px;
+    }
+    .hero-text1{
+        font-size:10px;
+    }
+    .hero-text2{
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .hero-text3{
+        font-size:13px;
+        line-height: 20px;
+        padding-right:190px;
+      }
+      .hero2{
+       top:0px;
+        width: 200px;
+        left: 200px;
+      }
+      .hero3{
+        position: absolute;
+        top:400px;
+        
+      }
+      
+      .container-text{
+        padding-left: 2px;
+    
+      }
+      .image{
+        height:250px;
+        padding-top:38px;
+    }
+      h2{
+        font-size:14px;
+        line-height: 20px;
+        margin:0 10px;
+      }
+      .text{
+          margin:0 50px;
+          padding-top: 8px;
+          
+      }
+      .image-text{
+        margin:0 50px;
+      }
+      .btn{
+          margin:29px 90px;
+         
+      }
+      .ellipses{
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .circle{
+        padding:19px 23px;
+        margin:115px 10px 100px 0px;
+      }
+       .circle1{
+        padding:19px 23px;
+        margin:115px 10px 100px 0px;
+      }
+      .circle2{
+        padding:19px 32px;
+        
+        margin:115px 10px 100px 0px;
+      }
+    
+  
+    .footer {
+        align-items: center;
+        width: 100%;
+    }
+    .bfooter {
+        position: relative;
+        left: 0.5rem;
+        bottom: 1.5rem;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2%;
+    }
+    .footer-container div {
+        margin: 1%;
+    }
+}
