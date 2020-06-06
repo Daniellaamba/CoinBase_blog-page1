@@ -3,6 +3,9 @@
     .top-wrapper{
         height:550px;
     }
+    .d-sm-none{
+      display: none !important;
+    }
     .hero-text2{
         font-size: 30px;
         line-height: 40px;
